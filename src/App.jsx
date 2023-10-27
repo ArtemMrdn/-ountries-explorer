@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";
 
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
@@ -7,6 +6,7 @@ import { Main } from "./components/Main";
 import { HomePage } from "./pages/HomePage";
 import { Details } from "./pages/Details";
 import { NotFound } from "./pages/NotFound";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [countries, setCountries] = useState([]);

@@ -6,6 +6,7 @@
 }
 
 :root {
+  /* Typography */
   --family: "Nunito Sans", sans-serif;
   --fs-sm: 14px;
   --fs-md: 16px;
@@ -13,6 +14,7 @@
   --fw-normal: 600;
   --fw-bold: 800;
 
+  /* Other */
   --radii: 0.5rem;
 }
 
